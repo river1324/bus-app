@@ -1,0 +1,106 @@
+/*=======================
+    APPLIES TO BOTH
+============================*/
+
+body {
+    background-color: #C2ED00;
+}
+
+/*============================
+   The Timetable Link Boxes
+============================*/
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+	list-style: none;
+	margin: 0px;
+	border:1px black solid;
+	text-decoration: none;
+	background-color: white;
+}
+
+.box:hover {
+   background-color: grey;
+}
+
+/*==========================
+    MEDIA QUERY: MOBILE
+============================*/
+@media (max-width: 599px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    h1 {
+    font-size: px;
+    text-align:	center;
+    height: auto;
+    width: auto;
+}
+
+h2 {
+    font-size: 50px;
+    text-align:	center;
+    height: auto;
+    width: auto;
+}
+    .home h1{
+        font-size: 55px;
+    }
+}
+
+
+
+
+
+/*==========================
+    MEDIA QUERY: DESKTOP
+============================*/
+@media (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+
+    .container {
+        display:flex;
+    }
+
+    .menu {
+        width: 25vw
+    }
+
+    .desktop {
+        width: 50vw;
+    }
+
+    .map {
+        width: 25vw;
+    }
+h1 {
+    font-size: 50px;
+    text-align:	center;
+    height: auto;
+    width: auto;
+}
+
+h2 {
+    font-size: 100px;
+    text-align:	center;
+    height: auto;
+    width: auto;
+}
+
+}
+
+
+
+
+
